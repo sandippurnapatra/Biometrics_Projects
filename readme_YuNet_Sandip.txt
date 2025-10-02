@@ -6,7 +6,7 @@ https://github.com/ShiqiYu/libfacedetection.train
 
 ### Find the "req.txt" file or the copy of the Anaconda environment that was used to run the script - "YuNet_Original-Git-Copy1.ipynb"
 
-### Simply import the "req.txt" file into an Anaconda environment and run the script. 
+### Simply import the "environment.yml" file into an Anaconda environment and run the script. 
 
 ### if there is any trouble with importing the environment, use the following quick install guide - 
 
@@ -38,5 +38,6 @@ python -m ipykernel install --user --name retinaface_dml --display-name "retinaf
 		#### The file resizes images by a scale defined in the last block "fc" variable (fc=1.0 means no scaling or down-scaling 			image). Feel free to change as required.	
 			#### The detected bounding box coordinates are scaled back and drawn on the original images to check detection 					performance manually
 				#### Detection coordinates and other necessary details are automatically saved as per the image file in an 						Excel/CSV file for convenience and to find "Detection" or "No Detection"
+
 
 
